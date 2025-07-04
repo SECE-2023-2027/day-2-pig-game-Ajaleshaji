@@ -46,7 +46,7 @@ btnRoll.addEventListener("click", function () {
 
   diceEl.classList.remove("hidden");
 
-  diceEl.src = `dice-${dice}.jpeg`;
+  diceEl.src = `dice-${dice}.jpg`;
 
   if (dice !== 1) {
     currentScore += dice;
